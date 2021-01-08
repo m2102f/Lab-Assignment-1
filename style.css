@@ -1,0 +1,131 @@
+body{
+	background-color: Olive;
+	align-content: center;
+
+}
+
+table{
+	border: 1px solid black;
+	border-collapse: collapse;
+	background:LavenderBlush;
+}
+.head{
+	vertical-align: center;
+}
+tr{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+td{
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-top: 10px;
+	border: 1px solid black;
+}
+.nobord{
+	border: none;
+	text-align: center;
+}
+.sec{
+	text-align: left;
+	border: none;
+}
+.lab{
+	vertical-align: center;
+}
+.margin{
+	text-align: left;
+}
+.lfmrg{
+	border-left: none;
+	text-align: left;
+}
+.lfrt{
+	border-left: none;
+	border-right: none;
+	text-align: left;
+}
+#rectangle{ 
+	width:200px; 
+	height:200px;
+	border: 1px solid black;
+} 
+legend{
+	font-weight: bold;
+}
+span{
+	writing-mode: vertical-lr;
+	transform: rotate(180deg);
+	font-weight: bold;
+}
+form{
+	vertical-align: center;
+}
+#submit {
+  background-color: LavenderBlush;
+  border: none;
+  color: solid black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+.submit {
+	
+  background-color: #4CAF50;
+  padding: 10px 19px; 
+  border: 1px solid black;
+  color: solid black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  opacity: 1;
+}
+#cancel {
+  background-color: LavenderBlush;
+  border: none;
+  color: solid black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+#reset {
+  background-color: LavenderBlush;
+  border: none;
+  color: solid black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+button {
+  background-color: LavenderBlush;
+  border: none;
+  color: solid black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration:none;
+ }
+ fieldset {
+ 	font-size: 16px;
+
+ }
+ legend{
+ 	font-size: 25px;
+ 	text-decoration-color: white;
+ }

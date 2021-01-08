@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LAB ASSIGNMENT 1</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form>
+		<div>
+			<table class="head" align="center">
+				
+			</table>
+		</div>
+		<div>
+			<table align="center">
+				<tr>
+					<td colspan="2" class="nobord">
+						<img src="logo.png" width="150px" height="150px">
+					</td>
+
+					<td colspan="4" class="nobord">
+						<font size="5px">Ph.D.</font><br>
+						<font size="6px"><b>INDIAN INSTITUTE OF TECHNOLOGY DELHI</b></font><br>
+						<font size="5px">Application Form for Admission to Ph.D Programme</font><br>
+						<font size="2px">Please read the instructions given in the information Brochure BEFORE you fill up the form</font><br>
+
+					</td>
+					<td class="nobord">
+						<div id="rectangle" class="lab">							
+							Select photo to upload:
+							<input type="file" name="fileToUpload" id="fileToUpload">
+							<input type="submit" value="Upload Photo" name="submit">
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="6">
+						<span>CATEGORY</span>
+					</td>
+					<td colspan="4">
+						Full time with Assistantship
+					</td>
+					<td colspan="2">
+						Employee Candidates (No assistantship)
+					</td>
+				</tr>
+				<tr>
+					<td colspan="4">
+						Source of Assistantship					
+					</td>
+					<td rowspan="4">
+						Sponsored (Full time)<br><br>
+						<input type="text" width="2"><br><br>
+						Experience Years 
+						<br><br>
+						<input type="Year" name="Years"><br>
+					</td>
+					<td rowspan="4">
+						Part-time<br><br>
+						<input type="text" width="2"><br><br>
+						Experience Years 
+						<br><br>
+						<input type="Year" name="Years"><br>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="3" colspan="3">
+						<fieldset align="left">
+							INSTITUTE <input type="text" name="INSTITUTE">
+						</fieldset>
+						<br>
+						<fieldset align="left" width="20">
+							<input type="radio" name="Mtech">M.Tech Degree
+							<br>				
+							<input type="radio" name="Gate">GATE 
+						</fieldset>
+						<br>
+						<fieldset align="left">
+							<legend align="left">Gate Decription</legend>
+							Gate Percentage <input type="text" name="Percentage">&emsp;
+							Gate completion year <input type="date" name="Year"><br><br>
+							Gate Score <input type="text" name="Score">&emsp;
+							Gate Marks <input type="text" name="Marks">
+						</fieldset>
+					</td>
+					<td>
+						CSIR <br>
+						<input type="checkbox" name="CSIR"><br><br>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						UGC NET <br>
+						<input type="checkbox" name="NET"><br><br>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						UGC JRF <br>
+						<input type="checkbox" name="JRF"><br><br>
+					</td>
+				</tr>
+				<tr>
+					<td>Tick whichever is applicable</td>
+					<td>GENERAL <br><input type="checkbox" name="GENERAL"></td>
+					<td>OBC <br><input type="checkbox" name="OBC"><br>(Non-Creamy Layer)</td>
+					<td>SC <br><input type="checkbox" name="SC"></td>
+					<td>ST <br><input type="checkbox" name="ST"></td>
+					<td>PH <br><input type="checkbox" name="PH"></td>
+				<tr>
+					<td rowspan="2">
+						<span><b>CHOICE</b></span>
+					</td>
+					<td colspan="2" class="sec">
+						<label>Department/Centre <br>(Write here name of only One Department/<br> Centre You are applying to)</label> 
+					</td>
+					<td class="sec">
+						<input type="text" name="Centre">
+					</td>
+					<td class="sec">
+						<label>Ph.D Code <br>(See Annexure-I of Information Brochure)</label>
+					</td>
+					<td colspan="2" class="sec">
+						<input type="Code" name="PhdCode">
+					</td>
+				</tr>
+				<tr>
+					<td class="sec">
+						Proposed Area of Research
+					</td>
+					<td colspan="5" class="margin">
+						<textarea cols="90">Type Here</textarea>								
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="8">
+						<span>PERSONAL</span>
+					</td>
+					<td class="sec">
+						Name (in CAPITAL)
+					</td>
+					<td colspan="2" class="sec">
+						<input type="text" name="Name">
+					</td>
+					<td class="sec">
+						Gender
+					</td>
+					<td colspan="2" class="lfmrg">
+						Male <input type="radio" name="Male"> &emsp;&emsp;
+						Female <input type="radio" name="Female">
+					</td>
+				</tr>
+				<tr>
+					<td class="sec">
+						Father's Name
+					</td>
+					<td colspan="2" class="sec">
+						<input type="text" name="FName">
+					</td>
+					<td class="sec">
+						Mother's Name
+					</td>
+					<td colspan="2" class="lfmrg">
+						<input type="text" name="MName">
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="3" class="sec">
+						Address for Correspondence
+					</td>
+					<td colspan="5" class="margin">
+						<textarea cols="90">Your Complete Address</textarea>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="sec">
+						PIN: <input type="text" name="PIN">
+					</td>
+					<td colspan="3" class="lfmrg">
+						Tel No. with STD Code <input type="phone" name="Phone">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="sec">
+						Email: <input type="email" name="Email">
+					</td>
+					<td colspan="3" class="lfmrg">
+						Mobile <input type="phone" name="Mobile">
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="3" class="sec">
+						Permanent Address
+					</td>
+					<td colspan="5" class="margin">
+						<textarea cols="90">Your Complete Address</textarea>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="sec">
+						PIN: <input type="text" name="PIN">
+					</td>
+					<td colspan="3" class="lfmrg">
+						Tel No. with STD Code <input type="phone" name="Phone">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="sec">
+						Email: <input type="email" name="Email">
+					</td>
+					<td colspan="3" class="lfmrg">
+						Mobile <input type="phone" name="Mobile">
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="4">
+						<span>QUALIFYING DEGREE</span>
+					</td>
+					<td colspan="2" class="sec">
+						Qualifying Exam <input type="text" name="Exam">
+					</td>
+					<td colspan="2" class="sec">
+						Duration of the course (Years) <input type="text" name="Duration">
+					</td>
+					<td colspan="2" class="sec">
+						Discipline <input type="text" name="Discipline">
+					</td>
+				<tr>
+					<td colspan="2" class="sec">
+						Year of Passing <input type="year" name="PYear">
+					</td>
+					<td colspan="2" class="sec">
+						Name of University/ Institute <input type="text" name="Duration">
+					</td>
+					<td colspan="2" class="sec">
+						
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="2" class="lab">
+						CGPA/ Marks Obtained
+					</td>
+					<td colspan="2">
+						<div class="sec">
+							<table>
+								<tr>
+									<td>
+										
+									</td>
+									<td>
+										Marks Obtained 
+									</td>
+									<td>
+										Max. Marks
+									</td>
+								</tr>
+								<tr>
+									<td class="sec" >
+										Year1 Semester1
+									</td>
+									<td>
+										<input type="text" name="mark1">
+									</td>
+									<td>
+										<input type="text" name="max1">
+									</td>
+								</tr>
+								<tr>
+									<td class="sec" >
+										Year2 Semester2
+									</td>
+									<td>
+										<input type="text" name="mark2">
+									</td>
+									<td>
+										<input type="text" name="max2">
+									</td>
+								</tr>
+								<tr>
+									<td class="sec" >
+										Year3 Semester3
+									</td>
+									<td>
+										<input type="text" name="mark3">
+									</td>
+									<td>
+										<input type="text" name="max3">
+									</td>
+								</tr>
+								<tr>
+									<td class="sec" >
+										Year4 Semester4
+									</td>
+									<td>
+										<input type="text" name="mark4">
+									</td>
+									<td>
+										<input type="text" name="max4">
+									</td>
+								</tr>
+							</table>
+						</div>
+					</td>
+
+					<td colspan="3" class="sec">
+						<div class="sec">
+							<table width="100%">
+								<tr>
+									<td class="sec">
+										
+									</td>
+									<td>
+										Marks Obtained 
+									</td>
+									<td>
+										Max. Marks
+									</td>
+								</tr>
+								<tr>
+									<td class="sec">
+										Semester II
+									</td>
+									<td>
+										<input type="text" name="smark1">
+									</td>
+									<td>
+										<input type="text" name="smax1">
+									</td>
+								</tr>
+								<tr>
+									<td class="sec" >
+										Semester II
+									</td>
+									<td>
+										<input type="text" name="smark2">
+									</td>
+									<td>
+										<input type="text" name="smax2">
+									</td>
+								</tr>
+								<tr>
+									<td class="sec" >
+										Semester II
+									</td>
+									<td>
+										<input type="text" name="smark3">
+									</td>
+									<td>
+										<input type="text" name="smax3">
+									</td>
+								</tr>
+								<tr>
+									<td class="sec" >
+										Semester II
+									</td>
+									<td>
+										<input type="text" name="smark4">
+									</td>
+									<td>
+										<input type="text" name="smax4">
+									</td>
+								</tr>
+							</table>
+						</div>
+					</td>
+				</tr>
+
+				<tr>	
+					<td class="sec">
+						CGPA <input type="text" name="cgpa">
+					</td>
+					<td class="sec">
+						Secured out of <input type="text" name="sout">
+					</td>
+					<td colspan="2" class="nobord">
+						OR Aggregate % of marks (of all years/semesters)
+					</td>
+					<td class="sec">
+						<input type="text" name="aggre">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="7" class="nobord">
+						Details of Marks Secured in the Examination other than qualifying examinations
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<span>PREV. ACAD. REC.	</span>
+					</td>
+					<td colspan="6">
+						<div>
+							<table width="100%">
+								<tr>
+									<td>
+										Exam./Degree
+									</td>
+									<td>
+										Discipline
+									</td>
+									<td>
+										Institute/University
+									</td>
+									<td>
+										Year of Passing
+									</td>
+									<td>
+										% Marsk/CGPA
+									</td>
+									<td>
+										Rank in Class/University
+									</td>
+								</tr>
+								<tr>
+									<td>
+										10+2/Equivalent
+									</td>
+									<td>
+										<input type="text" name="disci">
+									</td>
+									<td>
+										<input type="text" name="Institute">
+									</td>
+									<td>
+										<input type="text" name="Passyr">
+									</td>
+									<td>
+										<input type="text" name="mcgpa">
+									</td>
+									<td>
+										<input type="text" name="rank">
+									</td>
+								</tr>
+								<tr>
+									<td>
+										B.SC./BA
+									</td>
+									<td>
+										<input type="text" name="disci">
+									</td>
+									<td>
+										<input type="text" name="Institute">
+									</td>
+									<td>
+										<input type="text" name="Passyr">
+									</td>
+									<td>
+										<input type="text" name="mcgpa">
+									</td>
+									<td>
+										<input type="text" name="rank">
+									</td>
+								</tr>
+								<tr>
+									<td>
+										M.SC./B.TECH
+									</td>
+									<td>
+										<input type="text" name="disci">
+									</td>
+									<td>
+										<input type="text" name="Institute">
+									</td>
+									<td>
+										<input type="text" name="Passyr">
+									</td>
+									<td>
+										<input type="text" name="mcgpa">
+									</td>
+									<td>
+										<input type="text" name="rank">
+									</td>
+								</tr>
+								<tr>
+									<td>
+										MA
+									</td>
+									<td>
+										<input type="text" name="disci">
+									</td>
+									<td>
+										<input type="text" name="Institute">
+									</td>
+									<td>
+										<input type="text" name="Passyr">
+									</td>
+									<td>
+										<input type="text" name="mcgpa">
+									</td>
+									<td>
+										<input type="text" name="rank">
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Any Other
+									</td>
+									<td>
+										<input type="text" name="disci">
+									</td>
+									<td>
+										<input type="text" name="Institute">
+									</td>
+									<td>
+										<input type="text" name="Passyr">
+									</td>
+									<td>
+										<input type="text" name="mcgpa">
+									</td>
+									<td>
+										<input type="text" name="rank">
+									</td>
+								</tr>
+							</table>
+						</div>
+					</td>
+				</tr>
+			</tr>
+		</tr>
+
+		</table>
+		</div>
+	</form>
+	<fieldset>
+		<div align="center">
+			<button id="submit" name="submit">Submit</button>
+			<button id="submit" name="submit">Reset</button>
+	    	<button id="submit" name="cancel">Cancel</button>
+		</div>
+	</fieldset>
+</body>
+</html>
